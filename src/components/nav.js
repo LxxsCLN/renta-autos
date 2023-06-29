@@ -11,105 +11,101 @@ function Nav() {
   return (
     <>
       <nav>
-        {/* mobile */}
-        <div className={`mobile-navbar ${nav ? "open-nav" : ""}`}>
-          <div onClick={openNav} className="mobile-navbarclose">
-            <i className="fa-solid fa-xmark">CLOSE</i>
+        <div className={`mobile-navbar  ${nav ? "open-nav" : ""}`}>
+          <div onClick={openNav} className="mobile-navbarclose ">
+            <i className="fa-solid fa-xmark"></i>
           </div>
           <ul className="mobile-navbarlinks">
             <li>
               <Link onClick={openNav} to="/">
-                Home
+                Inicio
               </Link>
             </li>
             <li>
               <Link onClick={openNav} to="/">
-                About
+                Sobre nosotros
               </Link>
             </li>
             <li>
               <Link onClick={openNav} to="/">
-                Models
+                Modelos
               </Link>
             </li>
             <li>
               <Link onClick={openNav} to="/">
-                Testimonials
+                Testimonios
               </Link>
             </li>
             <li>
               <Link onClick={openNav} to="/">
-                Our Team
+                Nuestro equipo
               </Link>
             </li>
             <li>
               <Link onClick={openNav} to="/">
-                Contact
+                Contacto
               </Link>
             </li>
           </ul>
         </div>
-
-        {/* desktop */}
 
         <div className="navbar">
           
             <Link to="/" onClick={() => window.scrollTo(0, 0)}>
               <div className="navbarimg">
                 <img className="navbarimgimg" src={process.env.PUBLIC_URL + "/images/logo.svg"}  alt="" />
-                <p><span>Renta </span>Auto!</p> 
+                <p><span>Renta </span>Autos!</p> 
               </div>
             </Link>
           
           <ul className="navbarlinks">
             <li>
               <Link className="home-link" to="/">
-                Home
+                Inicio
               </Link>
             </li>
             <li>
               {" "}
               <Link className="about-link" to="/">
-                About
+                Sobre nosotros
               </Link>
             </li>
             <li>
               {" "}
               <Link className="models-link" to="/">
-                Vehicle Models
+                Modelos
               </Link>
             </li>
             <li>
               {" "}
               <Link className="testi-link" to="/">
-                Testimonials
+                Testimonios
               </Link>
             </li>
             <li>
               {" "}
               <Link className="team-link" to="/">
-                Our Team
+                Nuestro Equipo
               </Link>
             </li>
             <li>
               {" "}
               <Link className="contact-link" to="/">
-                Contact
+                Contacto
               </Link>
             </li>
           </ul>
           <div className="navbarbuttons">
             <Link className="navbarbuttonssign-in" to="/">
-              Sign In
+              Iniciar sesión
             </Link>
             <Link className="navbarbuttonsregister" to="/">
-              Register
+              Registrarse
             </Link>
           </div>
 
-          {/* mobile */}
-          <div className="mobile-hamb" onClick={openNav}>
-            <i className="fa-solid fa-bars">SHOW</i>
+          <div className="mobile-menu " onClick={openNav}>
+            <i className="fa-solid fa-bars"></i>
           </div>
         </div>
       </nav>

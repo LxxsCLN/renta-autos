@@ -1,15 +1,16 @@
 import React, { useState, useEffect, } from "react";
-import { Routes, Route, HashRouter } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Nav from './components/nav';
+import Home from './pages/home'
 
 function App() {
   return (
-    <HashRouter>
+    <div>
       <Nav />
       <Routes>
-        {/* <Route path="/" element={<Home />} /> */}
+        <Route path="/" element={<Home />} />
       </Routes>
-    </HashRouter>
+    </div>
   );
 }
 
