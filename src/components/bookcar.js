@@ -9,21 +9,19 @@ function BookCar() {
             <div className="book-content-box">
               <h2>Renta un auto</h2>
 
-              <form className="box-form">
+              <form className="box-form" id="box-form">
                 <div className="box-form-car-type">
                   <label>
                     <i className="fa-solid fa-car"></i> &nbsp; Elige El Auto <b>*</b>
                   </label>
                   <select>
                     <option>Elige el auto</option>
-                    <option value="Audi A1 S-Line">Audi A1 S-Line</option>
-                    <option value="VW Golf 6">VW Golf 6</option>
-                    <option value="Toyota Camry">Toyota Camry</option>
-                    <option value="BMW 320 ModernLine">
-                      BMW 320 ModernLine
-                    </option>
-                    <option value="Mercedes-Benz GLK">Mercedes-Benz GLK</option>
-                    <option value="VW Passat CC">VW Passat CC</option>
+                    <option value="Volkswagen Jetta">Volkswagen Jetta</option>
+                    <option value="Chevrolet Aveo">Chevrolet Aveo</option>
+                    <option value="Nissan Sentra">Nissan Sentra</option>
+                    <option value="Nissan Versa">Nissan Versa</option>
+                    <option value="Kia Rio">Kia Rio</option>
+                    <option value="Toyota Corolla">Toyota Corolla</option>
                   </select>
                 </div>
 
@@ -79,7 +77,10 @@ function BookCar() {
                   ></input>
                 </div>
 
-                <button type="submit">
+                <button type="submit" onClick={(e)=>{
+                  e.preventDefault()
+                  document.getElementById("box-form").reset()
+                }} >
                   Buscar
                 </button>
               </form>

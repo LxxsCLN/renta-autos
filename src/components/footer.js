@@ -71,10 +71,15 @@ function Footer() {
                   <p>Ingresa tu correo electrónico para recibir ofertas.</p>
                 </li>
                 <li>
-                  <input type="email" placeholder="Ingresa tu correo"></input>
+                  <form id="submitemailinput">
+                  <input type="email" placeholder="Ingresa tu correo" ></input>
+                  </form>
                 </li>
                 <li>
-                  <button className="submit-email">Submit</button>
+                  <button className="submit-email" onClick={(e)=>{
+                    e.preventDefault();
+                    document.getElementById("submitemailinput").reset()
+                  }}>Suscribirse</button>
                 </li>
               </ul>
             </div>

@@ -14,88 +14,89 @@ function PickCar() {
   };
 
   const carsarray = [
+    
     [
       {
-        name: "VW Golf 6",
-        price: "37",
-        img: "",
-        model: "Golf 6",
+        name: "Chevrolet Aveo",
+        price: "262",
+        img: "/images/aveo.png",
+        model: "Aveo",
+        mark: "Chevrolet",
+        year: "2019",
+        doors: "4",
+        air: "Sí",
+        transmission: "Automático",
+        fuel: "Gasolina",
+      },
+    ],
+    [
+      {
+        name: "Volkswagen Jetta",
+        price: "428",
+        img: "/images/jetta.png",
+        model: "Jetta",
         mark: "Volkswagen",
-        year: "2008",
-        doors: "4/5",
-        air: "Yes",
-        transmission: "Manual",
-        fuel: "Diesel",
+        year: "2022",
+        doors: "4",
+        air: "Sí",
+        transmission: "Estándar",
+        fuel: "Gasolina",
       },
     ],
     [
       {
-        name: "Audi A1 S-Line",
-        price: "45",
-        img: "",
-        model: "Audi",
-        mark: "A1",
-        year: "2012",
-        doors: "4/5",
-        air: "Yes",
-        transmission: "Manual",
-        fuel: "Gasoline",
+        name: "Nissan Sentra",
+        price: "344",
+        img: "/images/sentra.png",
+        model: "Sentra",
+        mark: "Nissan",
+        year: "2022",
+        doors: "4",
+        air: "Sí",
+        transmission: "Estándar",
+        fuel: "Híbrido",
       },
     ],
     [
       {
-        name: "Toyota Camry",
-        price: "30",
-        img: "",
-        model: "Camry",
+        name: "Nissan Versa",
+        price: "359",
+        img: "/images/versa.png",
+        model: "Versa",
+        mark: "Nissan",
+        year: "2021",
+        doors: "4",
+        air: "Sí",
+        transmission: "Automático",
+        fuel: "Gasolina",
+      },
+    ],
+    [
+      {
+        name: "Kia Rio",
+        price: "375",
+        img: "/images/rio.png",
+        model: "Rio",
+        mark: "Kia",
+        year: "2020",
+        doors: "4",
+        air: "Sí",
+        transmission: "Estándar",
+        fuel: "Híbrido",
+      },
+    ],
+    [
+      {
+        name: "Toyota Corolla",
+        price: "310",
+        img: "/images/corolla.png",
+        model: "Corolla",
         mark: "Toyota",
-        year: "2006",
-        doors: "4/5",
-        air: "Yes",
-        transmission: "Automatic",
-        fuel: "Hybrid",
-      },
-    ],
-    [
-      {
-        name: "BMW 320 ModernLine",
-        price: "35",
-        img: "",
-        model: "320",
-        mark: "BMW",
-        year: "2012",
-        doors: "4/5",
-        air: "Yes",
-        transmission: "Manual",
-        fuel: "Diesel",
-      },
-    ],
-    [
-      {
-        name: "Mercedes-Benz GLK",
-        price: "50",
-        img: "",
-        model: "Benz GLK",
-        mark: "Mercedes",
-        year: "2006",
-        doors: "4/5",
-        air: "Yes",
-        transmission: "Manual",
-        fuel: "Diesel",
-      },
-    ],
-    [
-      {
-        name: "VW Passat CC",
-        price: "25",
-        img: "",
-        model: "Passat CC",
-        mark: "Volkswagen",
-        year: "2008",
-        doors: "4/5",
-        air: "Yes",
-        transmission: "Automatic",
-        fuel: "Gasoline",
+        year: "2021",
+        doors: "4",
+        air: "Sí",
+        transmission: "Automático",
+        fuel: "Gasolina",
       },
     ],
   ];
@@ -105,16 +106,16 @@ function PickCar() {
       <section className="pick-section">
         <div className="container">
           <div className="pick-container">
-            <div className="pick-container__title">
-              <h3>Vehicle Models</h3>
-              <h2>Our rental fleet</h2>
+            <div className="pick-container-title">
+              <h3>Modelos de autos en renta</h3>
+              <h2>Nuestros Autos</h2>
               <p>
-                Choose from a variety of our amazing vehicles to rent for your
-                next adventure or business trip
+              Elije entre una variedad de increíbles autos para 
+              rentar para tu próxima aventura o viaje de negocios
               </p>
             </div>
-            <div className="pick-container__car-content">
-              {/* pick car */}
+            <div className="pick-container-car-content">
+              
               <div className="pick-box">
                 <button
                   className={`${coloringButton("btn1")}`}
@@ -123,7 +124,7 @@ function PickCar() {
                     btnID("btn1");
                   }}
                 >
-                  Audi A1 S-Line
+                  Volkswagen Jetta
                 </button>
                 <button
                   className={`${coloringButton("btn2")}`}
@@ -133,7 +134,7 @@ function PickCar() {
                     btnID("btn2");
                   }}
                 >
-                  VW Golf 6
+                  Chevrolet Aveo
                 </button>
                 <button
                   className={`${coloringButton("btn3")}`}
@@ -143,7 +144,7 @@ function PickCar() {
                     btnID("btn3");
                   }}
                 >
-                  Toyota Camry
+                  Nissan Sentra
                 </button>
                 <button
                   className={`${coloringButton("btn4")}`}
@@ -153,7 +154,7 @@ function PickCar() {
                     btnID("btn4");
                   }}
                 >
-                  BMW 320 ModernLine
+                  Nissan Versa
                 </button>
                 <button
                   className={`${coloringButton("btn5")}`}
@@ -163,7 +164,7 @@ function PickCar() {
                     btnID("btn5");
                   }}
                 >
-                  Mercedes-Benz GLK
+                  Kia Rio
                 </button>
                 <button
                   className={`${coloringButton("btn6")}`}
@@ -173,7 +174,7 @@ function PickCar() {
                     btnID("btn6");
                   }}
                 >
-                  VW Passat CC
+                  Toyota Corolla
                 </button>
               </div>
 

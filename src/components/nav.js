@@ -53,7 +53,7 @@ function Nav() {
           
             <Link to="/" onClick={() => window.scrollTo(0, 0)}>
               <div className="navbarimg">
-                <img className="navbarimgimg" src={process.env.PUBLIC_URL + "/images/logo.svg"}  alt="" />
+                <img className="navbarimgimg" src={process.env.PUBLIC_URL + "/images/logo.png"}  alt="" />
                 <p><span>Renta </span>Autos!</p> 
               </div>
             </Link>

@@ -6,60 +6,61 @@ function CarBox({ data, carID }) {
     <>
       {data[carID].map((car, id) => (
         <div key={id} className="box-cars">
-          {/* car */}
+          
           <div className="pick-car">
             {carLoad && <span className="loader"></span>}
             <img
               style={{ display: carLoad ? "none" : "block" }}
-              src={car.img}
-              alt="car_img"
+              src={process.env.PUBLIC_URL + car.img}
+              alt=""
               onLoad={() => setCarLoad(false)}
             />
           </div>
-          {/* description */}
+          
           <div className="pick-description">
-            <div className="pick-description__price">
-              <span>${car.price}</span>/ rent per day
+            <div className="pick-description-price">
+              <span>${car.price}</span>/ por día
             </div>
-            <div className="pick-description__table">
-              <div className="pick-description__table__col">
-                <span>Model</span>
+            <div className="pick-description-table">
+              <div className="pick-description-table-col">
+              <span>Marca</span>
+                <span>{car.mark}</span>
+                
+              </div>
+
+              <div className="pick-description-table-col">
+              <span>Modelo</span>
                 <span>{car.model}</span>
               </div>
 
-              <div className="pick-description__table__col">
-                <span>Mark</span>
-                <span>{car.mark}</span>
-              </div>
-
-              <div className="pick-description__table__col">
-                <span>Year</span>
+              <div className="pick-description-table-col">
+                <span>Año</span>
                 <span>{car.year}</span>
               </div>
 
-              <div className="pick-description__table__col">
-                <span>Doors</span>
+              <div className="pick-description-table-col">
+                <span>Puertas</span>
                 <span>{car.doors}</span>
               </div>
 
-              <div className="pick-description__table__col">
-                <span>AC</span>
+              <div className="pick-description-table-col">
+                <span>A/C</span>
                 <span>{car.air}</span>
               </div>
 
-              <div className="pick-description__table__col">
-                <span>Transmission</span>
+              <div className="pick-description-table-col">
+                <span>Transmisión</span>
                 <span>{car.transmission}</span>
               </div>
 
-              <div className="pick-description__table__col">
-                <span>Fuel</span>
+              <div className="pick-description-table-col">
+                <span>Combustible</span>
                 <span>{car.fuel}</span>
               </div>
             </div>
-            {/* btn cta */}
-            <a className="cta-btn" href="#booking-section">
-              Reserve Now
+            
+            <a className="cta-btn" href="#/">
+              Reserva Ahora
             </a>
           </div>
         </div>
