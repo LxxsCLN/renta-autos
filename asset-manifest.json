@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/renta-autos/static/css/main.1234ada1.css",
+    "main.js": "/renta-autos/static/js/main.b3ed009c.js",
+    "index.html": "/renta-autos/index.html",
+    "main.1234ada1.css.map": "/renta-autos/static/css/main.1234ada1.css.map",
+    "main.b3ed009c.js.map": "/renta-autos/static/js/main.b3ed009c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1234ada1.css",
+    "static/js/main.b3ed009c.js"
+  ]
+}
