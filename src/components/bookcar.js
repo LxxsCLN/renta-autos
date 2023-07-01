@@ -63,6 +63,8 @@ function BookCar() {
                   <input
                     id="picktime"
                     type="date"
+                    min="2023-01-01" 
+                    max="2023-12-31"
                   ></input>
                 </div>
 
@@ -74,6 +76,8 @@ function BookCar() {
                   <input
                     id="droptime"
                     type="date"
+                    min="2023-01-01" 
+                    max="2023-12-31"
                   ></input>
                 </div>
 

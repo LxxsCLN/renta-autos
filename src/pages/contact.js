@@ -30,12 +30,12 @@ function Contact() {
                 <input type="text" placeholder='Ingresa tu nombre...'></input>
 
                 <label>
-                  E-mail <b>*</b>
+                  Correo Electrónico <b>*</b>
                 </label>
                 <input type="email" placeholder="Ingresa tu correo electrónico..."></input>
 
                 <label>
-                  Escribe tu duda <b>*</b>
+                  Escribe tu Pregunta <b>*</b>
                 </label>
                 <textarea placeholder="Escribe tu pregunta..."></textarea>
 

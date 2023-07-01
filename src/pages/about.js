@@ -10,7 +10,7 @@ function About() {
           <div className="about-main">
             <img
               className="about-main-img"
-              src={process.env.PUBLIC_URL + "/images/mancar2.jpg"}
+              src={process.env.PUBLIC_URL + "/images/aboutus.jpg"}
               alt="car-renting"
             />
             <div className="about-main-text">

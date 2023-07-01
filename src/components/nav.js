@@ -22,7 +22,7 @@ function Nav() {
               </Link>
             </li>            
             <li>
-              <Link onClick={openNav} to="/">
+              <Link onClick={openNav} to="/autos">
                 Autos
               </Link>
             </li>
@@ -59,7 +59,7 @@ function Nav() {
             </li>            
             <li>
               {" "}
-              <Link className="models-link" to="/">
+              <Link className="models-link" to="/autos">
                 Autos
               </Link>
             </li>            
