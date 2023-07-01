@@ -11,7 +11,7 @@ function About() {
             <img
               className="about-main-img"
               src={process.env.PUBLIC_URL + "/images/aboutus.jpg"}
-              alt="car-renting"
+              alt=""
             />
             <div className="about-main-text">
               <h3>Sobre Nosotros</h3>
@@ -22,21 +22,21 @@ function About() {
               </p>
               <div className="about-main-text-icons">
                 <div className="about-main-text-icons-box">
-                  <img src={process.env.PUBLIC_URL + "/images/box1.png"} alt="car-icon" />
+                  <img src={process.env.PUBLIC_URL + "/images/box1.png"} alt="" />
                   <span>
                     <h4>24</h4>
                     <p>Modelos de autos</p>
                   </span>
                 </div>
                 <div className="about-main-text-icons-box">
-                  <img src={process.env.PUBLIC_URL + "/images/box2.png"} alt="car-icon" />
+                  <img src={process.env.PUBLIC_URL + "/images/box2.png"} alt="" />
                   <span>
                     <h4>11</h4>
                     <p>Oficinas de renta</p>
                   </span>
                 </div>
                 <div className="about-main-text-icons-box">
-                  <img src={process.env.PUBLIC_URL + "/images/box3.png"} alt="car-icon" className="last-fk" />
+                  <img src={process.env.PUBLIC_URL + "/images/box3.png"} alt="" className="last-fk" />
                   <span>
                     <h4>12</h4>
                     <p>Años sirviéndote</p>
@@ -45,7 +45,7 @@ function About() {
               </div>
             </div>
           </div>
-          {/* <PlanTrip /> */}
+          
         </div>
       </section>
       <div className="book-banner">

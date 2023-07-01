@@ -11,9 +11,7 @@ function PickCar() {
 
   const coloringButton = (id) => {
     return colorBtn === id ? "colored-button" : "";
-  };
-
-  
+  };  
 
   const carsarray = [
     

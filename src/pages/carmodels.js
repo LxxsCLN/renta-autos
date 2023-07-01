@@ -11,7 +11,7 @@ function CarModels() {
           <div className="models-div">
             <div className="models-div-box">
               <div className="models-div-box-img">
-                <img src={process.env.PUBLIC_URL + "/images/jetta2.jpg"} alt="car_img" />
+                <img src={process.env.PUBLIC_URL + "/images/jetta2.jpg"} alt="" />
                 <div className="models-div-box-descr">
                   <div className="models-div-box-descr-name-price">
                     <div className="models-div-box-descr-name-price-name">
@@ -54,7 +54,7 @@ function CarModels() {
 
             <div className="models-div-box">
               <div className="models-div-box-img">
-                <img src={process.env.PUBLIC_URL + "/images/aveo3.jpg"} alt="car_img" />
+                <img src={process.env.PUBLIC_URL + "/images/aveo3.jpg"} alt="" />
                 <div className="models-div-box-descr">
                   <div className="models-div-box-descr-name-price">
                     <div className="models-div-box-descr-name-price-name">
@@ -97,7 +97,7 @@ function CarModels() {
 
             <div className="models-div-box">
               <div className="models-div-box-img">
-                <img src={process.env.PUBLIC_URL + "/images/sentra2.jpg"} alt="car_img" />
+                <img src={process.env.PUBLIC_URL + "/images/sentra2.jpg"} alt="" />
                 <div className="models-div-box-descr">
                   <div className="models-div-box-descr-name-price">
                     <div className="models-div-box-descr-name-price-name">
@@ -140,7 +140,7 @@ function CarModels() {
 
             <div className="models-div-box">
               <div className="models-div-box-img">
-                <img src={process.env.PUBLIC_URL + "/images/versa2.jpg"} alt="car_img" />
+                <img src={process.env.PUBLIC_URL + "/images/versa2.jpg"} alt="" />
                 <div className="models-div-box-descr">
                   <div className="models-div-box-descr-name-price">
                     <div className="models-div-box-descr-name-price-name">
@@ -183,7 +183,7 @@ function CarModels() {
 
             <div className="models-div-box">
               <div className="models-div-box-img">
-                <img src={process.env.PUBLIC_URL + "/images/rio2.jpg"} alt="car_img" />
+                <img src={process.env.PUBLIC_URL + "/images/rio2.jpg"} alt="" />
                 <div className="models-div-box-descr">
                   <div className="models-div-box-descr-name-price">
                     <div className="models-div-box-descr-name-price-name">
@@ -226,7 +226,7 @@ function CarModels() {
 
             <div className="models-div-box">
               <div className="models-div-box-img">
-                <img src={process.env.PUBLIC_URL + "/images/corolla2.jpg"} alt="car_img" />
+                <img src={process.env.PUBLIC_URL + "/images/corolla2.jpg"} alt="" />
                 <div className="models-div-box-descr">
                   <div className="models-div-box-descr-name-price">
                     <div className="models-div-box-descr-name-price-name">

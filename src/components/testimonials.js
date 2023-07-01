@@ -27,7 +27,7 @@ function Testimonials() {
                 </p>
                 <div className="all-testimonials-box-name">
                   <div className="all-testimonials-box-name-profile">
-                    <img src={process.env.PUBLIC_URL + "/images/portrait1.jpg"} alt="user_img" />
+                    <img src={process.env.PUBLIC_URL + "/images/portrait1.jpg"} alt="" />
                     <span>
                       <h4>Jesús Rodríguez</h4>
                       <p>Culiacán</p>
@@ -45,7 +45,7 @@ function Testimonials() {
                 </p>
                 <div className="all-testimonials-box-name">
                   <div className="all-testimonials-box-name-profile">
-                    <img src={process.env.PUBLIC_URL + "/images/portrait2.jpg"} alt="user_img" />
+                    <img src={process.env.PUBLIC_URL + "/images/portrait2.jpg"} alt="" />
                     <span>
                       <h4>Ana López</h4>
                       <p>Mazatlán</p>

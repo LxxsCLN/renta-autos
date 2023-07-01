@@ -9,19 +9,8 @@ function Home() {
       <div className="home">
         <Hero />
         <PickCar />
-        <BookCar />
-        
+        <BookCar />        
         <Testimonials />
-        {/* <Hero />
-        <BookCar />
-        <PlanTrip />
-        <PickCar />
-        <Banner />
-        <ChooseUs />
-        <Testimonials />
-        <Faq />
-        <Download />
-        <Footer /> */}
         <Footer />
       </div>
     );
