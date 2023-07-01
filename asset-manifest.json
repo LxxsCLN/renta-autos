@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/renta-autos/static/css/main.efbb7df4.css",
-    "main.js": "/renta-autos/static/js/main.31885ae1.js",
+    "main.css": "/renta-autos/static/css/main.75346dd5.css",
+    "main.js": "/renta-autos/static/js/main.2783d1a6.js",
     "static/media/heropagesoverlay.jpg": "/renta-autos/static/media/heropagesoverlay.ab709064e993d341e5f9.jpg",
     "static/media/bannerbackground.jpg": "/renta-autos/static/media/bannerbackground.4efec054641f85938337.jpg",
     "index.html": "/renta-autos/index.html",
-    "main.efbb7df4.css.map": "/renta-autos/static/css/main.efbb7df4.css.map",
-    "main.31885ae1.js.map": "/renta-autos/static/js/main.31885ae1.js.map"
+    "main.75346dd5.css.map": "/renta-autos/static/css/main.75346dd5.css.map",
+    "main.2783d1a6.js.map": "/renta-autos/static/js/main.2783d1a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.efbb7df4.css",
-    "static/js/main.31885ae1.js"
+    "static/css/main.75346dd5.css",
+    "static/js/main.2783d1a6.js"
   ]
 }
