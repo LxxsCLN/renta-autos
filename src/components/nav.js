@@ -22,7 +22,7 @@ function Nav() {
               </Link>
             </li>
             <li>
-              <Link onClick={openNav} to="/">
+              <Link onClick={openNav} to="/about">
                 Sobre Nosotros
               </Link>
             </li>
@@ -63,7 +63,7 @@ function Nav() {
             </li>
             <li>
               {" "}
-              <Link className="about-link" to="/">
+              <Link className="about-link" to="/about">
                 Sobre Nosotros
               </Link>
             </li>

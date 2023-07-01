@@ -6,7 +6,7 @@ function Footer() {
             <div className="footer-content">
               <ul className="footer-content-1">
                 <li>
-                  <span>RENTA</span> Autos!
+                  <span>R</span>ent<span>A</span>uto
                 </li>
                 <li>
                     Ofrecemos una gran variedad de autos para todas tus necesidades. Tenemos el auto perfecto para ti.

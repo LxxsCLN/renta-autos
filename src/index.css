@@ -61,7 +61,7 @@ a{
 
 .navbarlinks{
   display: flex;
-  gap: 3rem;
+  gap: 3.25rem;
 }
 
 li{
@@ -759,6 +759,7 @@ footer {
 }
 .footer-content-1 li:nth-child(1) span {
   font-weight: 700;
+  color: #d11d27;
 }
 .footer-content-1 li:nth-child(2) {
   font-size: 1.6rem;
@@ -826,6 +827,219 @@ footer {
   box-shadow: 0 10px 15px 0 rgba(169,0,17, 0.4);
   background-color: #a90011;
 }
+
+
+
+
+
+
+
+.hero-pages {
+  width: 100%;
+  height: 41rem;
+  background-image: url("../public/images/heropagesoverlay.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}
+.hero-pages-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.92);
+}
+.hero-pages-text {
+  display: flex;
+  flex-direction: column;
+  z-index: 3;
+  position: relative;
+  width: 100%;
+  height: 41rem;
+  justify-content: center;
+  color: #010103;
+}
+.hero-pages-text h3 {
+  font-size: 3.6rem;
+  margin-bottom: 0.5rem;
+}
+.hero-pages-text p {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.hero-pages-text p a {
+  color: #010103;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.hero-pages-text p a:hover {
+  color: #ff4d30;
+}
+.about-main {
+  margin: 10rem auto;
+  display: flex;
+  gap: 5rem;
+  max-width: 100rem;
+  align-items: center;
+}
+@media (max-width: 960px) {
+  .about-main {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    max-width: 49rem;
+  }
+}
+@media (max-width: 520px) {
+  .about-main {
+    max-width: 100%;
+  }
+}
+.about-main-img {
+  width: 43rem;
+  height: 43rem;
+  border-radius: 6px;
+}
+@media (max-width: 960px) {
+  .about-main-img {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 520px) {
+  .about-main-img {
+    width: 100%;
+    height: auto;
+  }
+}
+.about-main-text {
+  color: #010103;
+  display: flex;
+  flex-direction: column;
+}
+.about-main-text h3 {
+  font-size: 2.2rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.about-main-text h2 {
+  font-size: 4.2rem;
+  line-height: 1.2;
+}
+.about-main-text p {
+  font-size: 1.6rem;
+  color: #706f7b;
+  font-family: "Rubik", sans-serif;
+  line-height: 1.5;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.about-main-text-icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4rem;
+}
+@media (max-width: 520px) {
+  .about-main-text-icons {
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    gap: 0;
+  }
+  .about-main-text-icons p {
+    margin-top: 0;
+  }
+}
+.about-main-text-icons-box {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 520px) {
+  .about-main-text-icons-box {
+    align-items: center;
+  }
+}
+
+.about-main-text-icons-box img {
+  width: 7rem;
+}
+.about-main-text-icons-box span {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media (max-width: 520px) {
+  .about-main-text-icons-box span {
+    text-align: center;
+    flex-direction: column;
+  }
+}
+.about-main-text-icons-box span h4 {
+  font-size: 4.6rem;
+}
+
+
+.book-banner {
+  display: flex;
+  width: 100%;
+  height: 20rem;
+  background-image: url("../public/images/bannerbackground.jpg");
+  position: relative;
+  margin-top: 7rem;
+  background-position-y: 33%;
+}
+@media (max-width: 750px) {
+  .book-banner {
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 1rem 0;
+  }
+}
+.book-banner-overlay {
+  background-color: #2d2d2d;
+  opacity: 0.89;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.text-content {
+  color: white;
+  z-index: 5;
+  position: relative;
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+@media (max-width: 750px) {
+  .text-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+  }
+}
+.text-content h2 {
+  font-size: 3.2rem;
+}
+.text-content span {
+  display: flex;
+  font-size: 2.7rem;
+  gap: 1rem;
+  align-items: center;
+  color: #ff4d30;
+  white-space: nowrap;
+}
+
 
 
 

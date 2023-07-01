@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 function HeroPages({ name }) {
   return (
     <>
-      <section className="heropages">
-        <div className="heropages-overlay"></div>
+      <section className="hero-pages">
+        <div className="hero-pages-overlay"></div>
         <div className="container">
-          <div className="heropages-text">
+          <div className="hero-pages-text">
             <h3>{name}</h3>
             <p>
-              <Link to="/">Home</Link> / {name}
+              <Link to="/">Inicio</Link> / {name}
             </p>
           </div>
         </div>
