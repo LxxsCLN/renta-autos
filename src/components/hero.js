@@ -14,6 +14,12 @@ function Hero() {
       .scrollIntoView({ behavior: "smooth" });
   };
 
+  const bookBtn2 = () => {
+    document
+      .querySelector(".pick-section")
+      .scrollIntoView({ behavior: "smooth" });
+  };
+
   useEffect(() => {
     const onPageScroll = () => {
       if (window.pageYOffset > 600) {
@@ -50,7 +56,7 @@ function Hero() {
                 >
                   Renta Ahora &nbsp; <i className="fa-solid fa-circle-check"></i>
                 </Link>
-                <Link className="hero-content-text-btns-learn-more" to="/">
+                <Link onClick={bookBtn2} className="hero-content-text-btns-learn-more" to="/">
                   Aprende Más &nbsp; <i className="fa-solid fa-angle-right"></i>
                 </Link>
               </div>

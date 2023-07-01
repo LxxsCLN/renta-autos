@@ -41,7 +41,7 @@ function Testimonials() {
                   <i className="fa-solid fa-quote-right"></i>
                 </span>
                 <p>
-                    "El carro estaba en excelentes condiciones y a muy buen precio. Recomiendo ampliamente esta página para rentar un auto!"
+                    "El auto estaba en excelentes condiciones y a muy buen precio. Recomiendo ampliamente esta página para rentar un auto!"
                 </p>
                 <div className="all-testimonials-box-name">
                   <div className="all-testimonials-box-name-profile">

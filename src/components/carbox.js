@@ -1,6 +1,13 @@
 import { useState } from "react";
 
 function CarBox({ data, carID }) {
+
+  const bookBtn = () => {
+    document
+      .querySelector("#booking-section")
+      .scrollIntoView({ behavior: "smooth" });
+  };
+
   const [carLoad, setCarLoad] = useState(true);
   return (
     <>
@@ -59,8 +66,8 @@ function CarBox({ data, carID }) {
               </div>
             </div>
             
-            <a className="cta-btn" href="#/">
-              Reserva Ahora
+            <a onClick={bookBtn} className="cta-btn" href="#/">
+              Reservar
             </a>
           </div>
         </div>

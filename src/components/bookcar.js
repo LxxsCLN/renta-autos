@@ -81,7 +81,7 @@ function BookCar() {
                   e.preventDefault()
                   document.getElementById("box-form").reset()
                 }} >
-                  Buscar
+                  Reservar
                 </button>
               </form>
             </div>

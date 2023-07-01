@@ -8,8 +8,9 @@ function Home() {
     return (
       <div className="home">
         <Hero />
-        <BookCar />
         <PickCar />
+        <BookCar />
+        
         <Testimonials />
         {/* <Hero />
         <BookCar />

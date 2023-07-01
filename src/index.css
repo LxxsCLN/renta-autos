@@ -61,7 +61,7 @@ a{
 
 .navbarlinks{
   display: flex;
-  gap: 2.1rem;
+  gap: 3rem;
 }
 
 li{
@@ -82,7 +82,7 @@ li{
 }
 
 .navbarimg{
-  width: 6rem;
+  width: 12rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -343,8 +343,8 @@ li{
   display: flex;
 }
 
-.book-content {
-  margin: 0 auto 5rem;
+#booking-section > .container{
+  padding: 10rem 2.5rem !important;
 }
 
 .book-content-box {
@@ -465,7 +465,7 @@ li{
 
 
 .pick-section {
-  padding: 5rem 0;
+  padding: 5rem 0 10rem;
 }
 
 .pick-container {
@@ -522,6 +522,7 @@ li{
   background-color: #e9e9e9;
   transition: all 0.2s;
   text-align: left;
+  color: black;
 }
 
 .pick-box button:hover {
@@ -611,7 +612,7 @@ li{
 
 .colored-button {
   background-color: #d11d27 !important;
-  color: white;
+  color: white !important;
 }
 
 .loader {
@@ -634,7 +635,7 @@ li{
 
 .testimonials-section {
   background-color: #f8f8f8;
-  padding: 10rem 0;
+  padding: 5rem 0;
   color: #010103;
 }
 
@@ -673,11 +674,7 @@ li{
   justify-content: center;
   padding: 3rem;
 }
-@media (max-width: 1000px) {
-  .all-testimonials {
-    padding: 0;
-  }
-}
+
 .all-testimonials-box {
   background-color: white;
   box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.08);
@@ -685,11 +682,7 @@ li{
   padding: 5.5rem;
   position: relative;
 }
-@media (max-width: 1000px) {
-  .all-testimonials-box {
-    padding: 5rem 3rem;
-  }
-}
+
 .all-testimonials-box p {
   font-size: 2.2rem;
   font-weight: 500;
@@ -724,20 +717,6 @@ li{
   bottom: 33px;
   right: 60px;
 }
-@media (max-width: 470px) {
-  .quotes-icon {
-    display: none;
-  }
-}
-
-@media (max-width: 900px) {
-  .box-2 {
-    display: none;
-  }
-}
-
-
-
 
 
 
@@ -750,7 +729,7 @@ li{
 
 footer {
   background-color: #ffffff;
-  padding: 10rem 0;
+  padding: 7.5rem 0;
 }
 
 .footer-content {
@@ -853,6 +832,9 @@ footer {
 
 
 
+
+
+
 @keyframes rotation {
   0% {
     transform: rotate(0deg);
@@ -865,6 +847,16 @@ footer {
 @media (max-width: 1200px) {
   .box-cars {
     gap: 2rem;
+  }
+  .hero-content-car-img {
+    margin-top: 5rem;
+    position: absolute;
+    right: -2vw;
+    width: 45vw;
+    z-index: 2;
+  }
+  .herobackground {
+    width: 45vw;
   }
 }
 
@@ -893,6 +885,18 @@ footer {
   }
   .book-content-box .box-form {
     grid-template-columns: 1fr 1fr;
+  }
+  .all-testimonials-box {
+    padding: 5rem 3rem;
+  }
+  .all-testimonials {
+    padding: 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .box-2 {
+    display: none;
   }
 }
 
@@ -940,6 +944,19 @@ footer {
   .book-content-box .box-form {
     grid-template-columns: 1fr;
   }
+}
+
+@media (max-width: 470px) {
+  .quotes-icon {
+    display: none;
+  }
+  .pick-car img {
+    width: 100%;
+    margin-top: 0rem;
+  }
+#booking-section > .container {
+  padding: 0rem 2.5rem 5rem !important;
+}
 }
 
 @media (max-width: 450px) {

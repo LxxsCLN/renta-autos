@@ -23,7 +23,7 @@ function Nav() {
             </li>
             <li>
               <Link onClick={openNav} to="/">
-                Sobre nosotros
+                Sobre Nosotros
               </Link>
             </li>
             <li>
@@ -38,7 +38,7 @@ function Nav() {
             </li>
             <li>
               <Link onClick={openNav} to="/">
-                Nuestro equipo
+                Nuestro Equipo
               </Link>
             </li>
             <li>
@@ -51,11 +51,8 @@ function Nav() {
 
         <div className="navbar">
           
-            <Link to="/" onClick={() => window.scrollTo(0, 0)}>
-              <div className="navbarimg">
+            <Link className="navbarimg" to="/" onClick={() => window.scrollTo(0, 0)}>
                 <img className="navbarimgimg" src={process.env.PUBLIC_URL + "/images/logo.png"}  alt="" />
-                <p><span>Renta </span>Autos!</p> 
-              </div>
             </Link>
           
           <ul className="navbarlinks">
@@ -67,7 +64,7 @@ function Nav() {
             <li>
               {" "}
               <Link className="about-link" to="/">
-                Sobre nosotros
+                Sobre Nosotros
               </Link>
             </li>
             <li>

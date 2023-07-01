@@ -20,10 +20,10 @@ function Footer() {
                 <li>
                   <a
                     href="mailto: 
-                    luiespinosbr@gmail.com"
+                    luisespinosbr@gmail.com"
                   >
                     <i className="fa-solid fa-envelope"></i>
-                    &nbsp; luiespinosbr@gmail.com
+                    &nbsp; luisespinosbr@gmail.com
                   </a>
                 </li>
   
@@ -32,7 +32,7 @@ function Footer() {
                     style={{ fontSize: "14px" }}
                     target="_blank"
                     rel="noreferrer"
-                    href="github.com/LxxsCLN"
+                    href="https://www.github.com/LxxsCLN"
                   >
                     Hecho por luiseseberre
                   </a>
