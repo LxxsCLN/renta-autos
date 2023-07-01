@@ -5,8 +5,8 @@ function Testimonials() {
         <div className="container">
           <div className="testimonials-content">
             <div className="testimonials-content-title">
-              <h4>Testimonios</h4>
-              <h2>Recomendaciones de Clientes</h2>
+              <h4>Recomendaciones</h4>
+              <h2>Testimonios de Clientes</h2>
               <p>
                 Descubre el impacto positivo que les hemos dejado a nuestros clientes
                 leyendo sus testimonios. Nuestros clientes han experimentado nuestro
