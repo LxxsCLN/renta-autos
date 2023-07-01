@@ -20,6 +20,16 @@ function Nav() {
               <Link onClick={openNav} to="/">
                 Inicio
               </Link>
+            </li>            
+            <li>
+              <Link onClick={openNav} to="/">
+                Autos
+              </Link>
+            </li>
+            <li>
+              <Link onClick={openNav} to="/testimonials">
+                Testimonios
+              </Link>
             </li>
             <li>
               <Link onClick={openNav} to="/about">
@@ -27,25 +37,11 @@ function Nav() {
               </Link>
             </li>
             <li>
-              <Link onClick={openNav} to="/">
-                Modelos
-              </Link>
-            </li>
-            <li>
-              <Link onClick={openNav} to="/">
-                Testimonios
-              </Link>
-            </li>
-            <li>
-              <Link onClick={openNav} to="/">
-                Nuestro Equipo
-              </Link>
-            </li>
-            <li>
-              <Link onClick={openNav} to="/">
+              <Link onClick={openNav} to="/contact">
                 Contacto
               </Link>
             </li>
+            <li></li><li></li>
           </ul>
         </div>
 
@@ -60,6 +56,18 @@ function Nav() {
               <Link className="home-link" to="/">
                 Inicio
               </Link>
+            </li>            
+            <li>
+              {" "}
+              <Link className="models-link" to="/">
+                Autos
+              </Link>
+            </li>            
+            <li>
+              {" "}
+              <Link className="testi-link" to="/testimonials">
+                Testimonios
+              </Link>
             </li>
             <li>
               {" "}
@@ -69,25 +77,7 @@ function Nav() {
             </li>
             <li>
               {" "}
-              <Link className="models-link" to="/">
-                Modelos
-              </Link>
-            </li>
-            <li>
-              {" "}
-              <Link className="testi-link" to="/">
-                Testimonios
-              </Link>
-            </li>
-            <li>
-              {" "}
-              <Link className="team-link" to="/">
-                Nuestro Equipo
-              </Link>
-            </li>
-            <li>
-              {" "}
-              <Link className="contact-link" to="/">
+              <Link className="contact-link" to="/contact">
                 Contacto
               </Link>
             </li>

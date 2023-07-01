@@ -110,7 +110,7 @@ function PickCar() {
           <div className="pick-container">
             <div className="pick-container-title">
               <h3>Modelos de autos en renta</h3>
-              <h2>Nuestros Autos</h2>
+              <h2>Autos</h2>
               <p>
               Elije entre una variedad de increíbles autos para 
               rentar para tu próxima aventura o viaje de negocios

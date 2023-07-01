@@ -42,7 +42,7 @@ function Footer() {
               <ul className="footer-content-2">
                 <li>Nosotros</li>
                 <li>
-                  <a href="#/">Encuéntranos</a>
+                  <a href="#/">Oficinas</a>
                 </li>
                 <li>
                   <a href="#/">Empleos</a>
