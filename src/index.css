@@ -1293,11 +1293,15 @@ footer {
   .contact-div {
     grid-template-columns: 1fr;
     text-align: center;
+    padding: 10rem 0rem;
   }
   .contact-div-text {
-    margin: 0 auto;
     margin-bottom: 2rem;
+    max-width: calc(100vw - 5rem);
   }
+   .contact-div-form{
+    max-width: calc(100vw - 5rem);
+  } 
 }
 
 
